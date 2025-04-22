@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: trading_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/trading_db
+      - SHORT_WINDOW=5
+      - LONG_WINDOW=20
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+    command: sh -c "sleep 5 && uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload"
+
+volumes:
+  postgres_data:
