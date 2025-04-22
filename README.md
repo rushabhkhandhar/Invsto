@@ -1,8 +1,26 @@
-![Image 1](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.38.45 PM.png)
-![Image 2](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.39.25 PM.png)
-![Image 3](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.43.17 PM.png)
-![Image 4](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.43.31 PM.png)
-![Image 5](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.44.03 PM.png)
-![Image 6](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.44.14 PM.png)
-![Image 7](trading-strategy-api/docs/images/Screenshot 2025-04-22 at 3.45.36 PM.png)
+# Trading Strategy API
 
+A FastAPI-based API for stock data analysis and strategy backtesting.
+
+## Application Screenshots
+
+### API Documentation
+![API Documentation](/docs/images/Screenshot%202025-04-22%20at%203.38.45%20PM.png)
+
+### Data Endpoint
+![Data Endpoint](/docs/images/Screenshot%202025-04-22%20at%203.39.25%20PM.png)
+
+### Strategy Performance
+![Strategy Performance](/docs/images/Screenshot%202025-04-22%20at%203.43.17%20PM.png)
+
+### Database Records
+![Database Records](/docs/images/Screenshot%202025-04-22%20at%203.43.31%20PM.png)
+
+### Docker Containers
+![Docker Containers](/docs/images/Screenshot%202025-04-22%20at%203.44.03%20PM.png)
+
+### Testing Results
+![Testing Results](/docs/images/Screenshot%202025-04-22%20at%203.44.14%20PM.png)
+
+### Postman API Testing
+![Postman API Testing](/docs/images/Screenshot%202025-04-22%20at%203.45.36%20PM.png)
